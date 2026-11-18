@@ -1,0 +1,19 @@
+{
+  "name": "project-deadzone",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Project Deadzone: browser prototype of an isometric PvE extraction shooter built around a protective beacon field and an adaptive AI Director.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:dev": "node build.mjs --dev",
+    "playtest": "node tools/playtest.mjs 5"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.65.1"
+  }
+}
